@@ -13,10 +13,9 @@
     --fonte0:'Secular One', sem serifa;
     --fonte3:'Passion One', cursiva;
     --fonte4:'Sriracha', cursiva;
-    --fonte5:'Source Serif Pro', serif;
+    --fonte5:'Source Serif Pro', sans-serif;
     
-
- }
+}
 
 *{
     margin: 0px;
@@ -37,6 +36,7 @@ header{
     text-align: center;
 
 }
+
 header > h1{
 padding-top: 20px ;
 font-variant: small-caps;
@@ -94,15 +94,20 @@ section.imagem > p {
 }
 
 section#img01 {
+
     background-image: url("../imagens/background001.jpg");
-    background-position: right center;
+    background-position: center center;
+    background-size: cover;
+  
+    
+    
   
 
 }
 
 section#img02 {
  background-image: url("../imagens/background002.jpg");
-
+ background-size: cover;
 
 }
 footer{
